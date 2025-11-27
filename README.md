@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌍 Traveloop – Travel Booking Web Application
 
-## Getting Started
+Traveloop is a full-stack travel booking platform where users can explore destinations, view details, create trips, and manage travel bookings.  
+The project includes:
 
-First, run the development server:
+✔ Next.js (App Router) frontend  
+✔ Firebase authentication  
+✔ Node.js + Express backend  
+✔ MongoDB Atlas database  
+✔ Fully responsive UI (Tailwind + DaisyUI)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Live Demo  
+Frontend: https://your-vercel-url.vercel.app  
+Backend API: https://your-render-url.onrender.com  
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Features
 
-## Learn More
+- 🔐 Firebase Authentication (Email + Google)
+- 🌅 View all travel destinations
+- 📝 Add / Manage Trips (protected routes)
+- 📄 Destination Details Page (dynamic)
+- 🎨 Beautiful UI with Tailwind & Animations
+- 🌦 Fully responsive and mobile-friendly  
+- 🗄 MongoDB + Express REST API backend
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### **Frontend**
+- Next.js (App Router)
+- React
+- Tailwind CSS + DaisyUI
+- Firebase Authentication
+- React Hot Toast
 
-## Deploy on Vercel
+### **Backend**
+- Node.js + Express
+- MongoDB Atlas
+- CORS enabled REST API
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚙️ Installation & Setup
+
+### 🔹 1. Clone the repository
+```sh
+git clone https://github.com/your-username/traveloop.git
+cd traveloop
