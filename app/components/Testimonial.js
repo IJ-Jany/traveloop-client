@@ -26,7 +26,7 @@ export default function Testimonail() {
   return (
     <section className="py-20 bg-blue-50">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-4xl font-bold text-blue-700 mb-4">
+        <h2 className="text-3xl font-bold text-blue-700 mb-4">
           What Travelers Say
         </h2>
         <p className="text-gray-600 mb-12 max-w-xl mx-auto">

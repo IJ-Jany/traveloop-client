@@ -1,11 +1,26 @@
 export default function CTA() {
   return (
-    <div className="py-16 bg-blue-300 text-white text-center px-4 md:px-16">
-      <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready for Your Next Adventure?</h2>
-      <p className="mb-6 text-lg md:text-xl">Join thousands of travelers and explore the world with us.</p>
-      <button className="bg-white text-blue-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition">
+    <div className="py-20 bg-gradient-to-r from-blue-700 to-purple-600 text-white text-center px-6">
+      
+      <h2 className="text-4xl md:text-5xl font-extrabold mb-5 tracking-wide">
+        Ready for Your Next Adventure?
+      </h2>
+
+      <p className="mb-8 text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed">
+        Join thousands of travelers and explore breathtaking destinations around the globe.
+      </p>
+
+      <button
+        className="
+          px-8 py-3 
+          bg-white text-blue-700 
+          font-semibold rounded-lg shadow-md 
+          hover:bg-blue-100 
+          transition-all duration-300
+        "
+      >
         Get Started
       </button>
     </div>
-  )
+  );
 }

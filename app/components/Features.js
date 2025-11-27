@@ -7,17 +7,38 @@ const features = [
 
 export default function Features() {
   return (
-    <div className="py-16 bg-gray-100 text-center">
-      <h2 className="text-3xl font-bold mb-8">Our Features</h2>
-      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 px-4 md:px-16">
+    <div className="py-20 bg-gray-50">
+      <h2 className="text-4xl font-bold text-center mb-12 text-blue-700">
+        Why Choose Us
+      </h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-10 px-6 md:px-24">
         {features.map((f, idx) => (
-          <div key={idx} className="bg-white p-6 rounded-lg shadow hover:shadow-lg transition">
-            <div className="text-4xl mb-4">{f.icon}</div>
-            <h3 className="font-semibold text-blue-400 mb-2">{f.title}</h3>
-            <p className="text-gray-600">{f.desc}</p>
+          <div
+            key={idx}
+            className="
+              bg-white p-8 rounded-xl shadow-md 
+              hover:shadow-xl hover:-translate-y-2 
+              transition-all duration-300 border border-gray-100
+            "
+          >
+            {/* Icon Circle */}
+            <div className="flex items-center justify-center mb-6">
+              <div className="w-16 h-16 bg-blue-100 text-blue-600 rounded-full flex items-center justify-center text-3xl shadow-sm">
+                {f.icon}
+              </div>
+            </div>
+
+            <h3 className="text-xl font-semibold text-gray-800 mb-3 text-center">
+              {f.title}
+            </h3>
+
+            <p className="text-gray-600 text-center leading-relaxed">
+              {f.desc}
+            </p>
           </div>
         ))}
       </div>
     </div>
-  )
+  );
 }

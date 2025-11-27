@@ -1,7 +1,8 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import DestinationCard from "./DestinationCard";
+import DestinationCard from "../components/DestinationCard";
+
 
 export default function Destinations() {
   const [destinations, setDestinations] = useState(null);
@@ -33,7 +34,7 @@ export default function Destinations() {
 
   return (
      <div className="container mx-auto p-5">
-      <h1 className="text-3xl font-bold mb-6 text-center text-blue-700">Top Destinations</h1>
+      <h1 className="text-3xl font-bold mb-6">Top Destinations</h1>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
         {destinations.map((item) => (
